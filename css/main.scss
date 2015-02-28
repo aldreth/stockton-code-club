@@ -1,0 +1,65 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+weight: 0
+---
+
+/* Link styles
+-------------------------------------------------- */
+.links ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  margin-left: -5px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.links ul>li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+@media (min-width: 992px) {
+  .links ul {
+    font-size: 17px;
+    text-align: right;
+  }
+  .links ul>li {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+/* Logo styles
+-------------------------------------------------- */
+.logo {
+  padding: 50px 20px 0 0;
+}
+.yoomee-logo {
+  background: #e1566c;
+  width: 150px;
+}
+.codeclub-logo {
+  width: 50px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+}
